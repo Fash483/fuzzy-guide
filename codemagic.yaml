@@ -14,7 +14,7 @@ workflows:
           
       - name: Start Transmission Daemon
         script: |
-          sudo service transmission-daemon stop || true
+          transmission-daemon
           transmission-daemon -a "*.*.*.*" -u admin -v password
           sleep 5
           
