@@ -1,7 +1,6 @@
 workflows:
   torrent-to-filemirage:
     name: Torrent to Filemirage Downloader/Uploader
-    instance_type: linux
     max_build_duration: 120
     environment:
       vars:
